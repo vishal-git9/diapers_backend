@@ -1,7 +1,7 @@
 # diapers_backend
 this is the backend for the diapers it is using JSON Server internally for all the CRUD operations.
 
-#URL endpoints for products
+# URL endpoints for products---
 <h1> endpoint for getting product of specific category </h1> (GET)
 --- <b>https://diapers-backnd.onrender.com/${category}</b>
 
@@ -17,7 +17,7 @@ this is the backend for the diapers it is using JSON Server internally for all t
 <h1> endpoint for getting the product details of specific product </h1> (GET)
 --- <b>https://diapers-backnd.onrender.com/${category}/${id}</b>
 
-#URL endpoints for cart data
+# URL endpoints for cart data ----
 
 <h1> endpoint for getting all cart data of specific user </h1> (GET)
 --- <b>https://diapers-backnd.onrender.com/Cart?userId={id}</b>
@@ -31,7 +31,7 @@ this is the backend for the diapers it is using JSON Server internally for all t
 <h1> endpoint for changing cart data of specific user </h1> (PATCH)
 --- <b>https://diapers-backnd.onrender.com/Cart/?userId={id}&${id}</b>
 
-#URL endpoints for Orders data
+# URL endpoints for Orders data---
 
 <h1> endpoint for getting all Orders data of specific user </h1> (GET)
 --- <b>https://diapers-backnd.onrender.com/Orders?userId={id}</b>
